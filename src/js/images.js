@@ -11,12 +11,11 @@ PNotify.defaults.icons = 'material';
 PNotify.defaults.animateSpeed = 'fast';
 PNotify.defaults.delay = 4000;
 
-const searchForm = document.querySelector('#search-form');
 const gallery = document.querySelector('.gallery');
-const input = searchForm.querySelector('input[type="text"]');
+const input = document.querySelector('input[type="text"]');
 const button = document.querySelector('#load-more');
 
-input.addEventListener('input', handleInputEvent);
+input.addEventListener('input', _debounce(handleInputEvent, 500));
 button.addEventListener('click', handleButtonClick);
 
 
