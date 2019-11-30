@@ -18,10 +18,7 @@ const button = document.querySelector('#load-more');
 
 input.addEventListener('input', _debounce(handleInputEvent, 500));
 button.addEventListener('click', handleButtonClick);
-gallery.onload = function () {
-  scrollToBottom();
-  console.log('LOADED');
-};
+
 
 function handleInputEvent(e) {
   e.preventDefault();
