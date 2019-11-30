@@ -12,11 +12,13 @@ PNotify.defaults.animateSpeed = 'fast';
 PNotify.defaults.delay = 4000;
 
 const gallery = document.querySelector('.gallery');
-const input = document.querySelector('input[type="text"]');
+// const input = document.querySelector('input[type="text"]');
+const input = document.querySelector('.form-input');
 const button = document.querySelector('#load-more');
 
-input.addEventListener('input', _debounce(handleInputEvent, 500));
+
 button.addEventListener('click', handleButtonClick);
+input.addEventListener('input', _debounce(handleInputEvent, 500));
 
 
 function handleInputEvent(e) {
