@@ -16,7 +16,7 @@ const gallery = document.querySelector('.gallery');
 const input = searchForm.querySelector('input[type="text"]');
 const button = document.querySelector('#load-more');
 
-input.addEventListener('input', _debounce(handleInputEvent, 500));
+input.addEventListener('input', handleInputEvent);
 button.addEventListener('click', handleButtonClick);
 
 
