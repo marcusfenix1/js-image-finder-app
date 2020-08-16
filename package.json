@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marcusfenix1/goit-js-hw-13-image-finder.git"
+    "url": "git+https://github.com/marcusfenix1/js-image-finder-app.git"
   },
   "keywords": [],
   "author": "Eugene Zhoglo <seraffallen@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/marcusfenix1/goit-js-hw-13-image-finder/issues"
+    "url": "https://github.com/marcusfenix1/js-image-finder-app/issues"
   },
-  "homepage": "https://marcusfenix1.github.io/goit-js-hw-13-image-finder",
+  "homepage": "https://marcusfenix1.github.io/js-image-finder-app",
   "devDependencies": {
     "@babel/core": "^7.4.5",
     "@babel/plugin-proposal-class-properties": "^7.4.4",
