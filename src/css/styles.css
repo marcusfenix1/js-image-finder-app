@@ -11,7 +11,7 @@ html {
 }
 
 p {
-  font-weight: bold
+  font-weight: bold;
 }
 
 body {
@@ -40,7 +40,7 @@ body {
   margin-right: auto;
 }
 
-.photo-card>img {
+.photo-card > img {
   width: 320px;
   height: 240px;
   position: relative;
@@ -73,8 +73,10 @@ body {
   border-radius: 10px;
   border: 1px solid transparent;
   background-color: grey;
-  transition: .3s;
+  transition: 0.3s;
   visibility: hidden;
+  position: sticky;
+  bottom: 20px;
 }
 
 .form-container {

@@ -16,10 +16,8 @@ const gallery = document.querySelector('.gallery');
 const input = document.querySelector('.form-input');
 const button = document.querySelector('#load-more');
 
-
 button.addEventListener('click', handleButtonClick);
 input.addEventListener('input', _debounce(handleInputEvent, 500));
-
 
 function handleInputEvent(e) {
   e.preventDefault();
